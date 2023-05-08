@@ -1,5 +1,14 @@
-regextester:
+version: "3.9"
+services:
+  regextester:
     container_name: regextester
     build: regextester
     ports:
-    - "80:80"
+      - "80:80"
+# regextester:
+#   container_name: regextester
+#   build: regextester
+#   ports:
+#   - "80:80"
+
+
